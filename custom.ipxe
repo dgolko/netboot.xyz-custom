@@ -10,7 +10,7 @@ echo Hello world!
 
 :acronis
 menu Acronis Bootable ISO
-kernel http://172.16.4.3:8080/acronis/ABR15_BOOTMEDIA.iso
+kernel http://172.16.4.3:8080/costum/acronis/ABR15_BOOTMEDIA.iso
 boot
 echo asdasd!
 :custom_exit
