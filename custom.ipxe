@@ -5,8 +5,15 @@
 
 :start
 echo Hello world!
-sleep 10
-goto custom_exit
+# sleep 10
+# goto custom_exit
+
+#!ipxe
+
+:acronis
+menu Acronis Bootable ISO
+kernel http://172.16.4.3:8080/acronis/ABR15_BOOTMEDIA.iso
+boot
 
 :custom_exit
 exit 0
